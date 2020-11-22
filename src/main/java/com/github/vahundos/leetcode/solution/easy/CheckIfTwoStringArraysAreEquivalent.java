@@ -16,12 +16,4 @@ public class CheckIfTwoStringArraysAreEquivalent {
 
         return firstWordBuilder.toString().equals(secondWordBuilder.toString());
     }
-
-    public static void main(String[] args) {
-        var solution = new CheckIfTwoStringArraysAreEquivalent();
-
-        System.out.println(solution.arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"})); // true
-        System.out.println(solution.arrayStringsAreEqual(new String[]{"a", "cb"}, new String[]{"ab", "c"})); // false
-        System.out.println(solution.arrayStringsAreEqual(new String[]{"abc", "d", "defg"}, new String[]{"abcddefg"})); // true
-    }
 }
